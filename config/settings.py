@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "markdownify.apps.MarkdownifyConfig",
     "mainapp",
 ]
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
