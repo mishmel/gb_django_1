@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -43,6 +42,7 @@ INSTALLED_APPS = [
     "social_django",
     "mainapp",
     "authapp",
+    "crispy_forms",
 ]
 
 
@@ -160,3 +160,5 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 SOCIAL_AUTH_GITHUB_KEY = "9f85721184f78ac940ff"
 SOCIAL_AUTH_GITHUB_SECRET = "f6f1314abb99d7c4ca32b9a964d9fa2724f66c5b"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
